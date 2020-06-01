@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#855039</item>
         <item name="colorPrimaryDark">#4B3621</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#FFF</item>
         <item name="android:colorBackground">#F5E9B9</item>
 
     </style>

@@ -3,4 +3,6 @@
     <color name="colorPrimary">#855039</color>
     <color name="colorPrimaryDark">#4B3621</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="fundoVogais">#F7F7F7</color>
+
 </resources>

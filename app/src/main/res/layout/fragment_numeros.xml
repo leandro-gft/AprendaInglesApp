@@ -9,13 +9,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/segundo_fundo">
 
         <ImageView
             android:id="@+id/imageUm"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_constraintBottom_toTopOf="@+id/imageTres"
             android:src="@drawable/um"
             app:layout_constraintBottom_toTopOf="@+id/imageTres"
             app:layout_constraintEnd_toStartOf="@+id/imageDois"

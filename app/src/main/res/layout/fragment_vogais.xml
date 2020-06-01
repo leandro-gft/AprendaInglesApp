@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.VogaisFragment">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundoVogais">
 
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageA"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vogal_a"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageI"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vogal_i"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/imageA" />
+
+        <ImageView
+            android:id="@+id/imageE"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vogal_e"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageO"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vogal_o"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/imageE" />
+
+        <ImageView
+            android:id="@+id/imageU"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/vogal_u"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageO" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
+</ScrollView>
