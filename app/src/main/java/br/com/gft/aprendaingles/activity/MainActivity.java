@@ -1,8 +1,10 @@
-package br.com.gft.aprendaingles;
+package br.com.gft.aprendaingles.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.com.gft.aprendaingles.R;
 
 public class MainActivity extends AppCompatActivity {
 
